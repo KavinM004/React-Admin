@@ -3,7 +3,7 @@ import { IonIcon } from '@ionic/react';
 import { caretDownCircleOutline, caretDownOutline, personOutline } from 'ionicons/icons';
 import Grid from './Components/Grid.jsx';
 import Chart from './Components/Chart.jsx';
-import Thunder from './assets/Thunder.jpg;
+import Thunder from './assets/Thunder.jpg';
 
 function App() {
   const [open, setOpen] = useState(true);
