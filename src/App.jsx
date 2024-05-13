@@ -23,7 +23,7 @@ function App() {
     <>
       <div className="flex bg-[whitesmoke]">
       <div className={`z-10 ${open ? "w-64" : "w-20 "}   bg-dark-purple h-screen  p-5  pt-8 relative duration-300`} >
-        <img src="./src/assets/control.png"
+        <img src="./assets/control.png"
           className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple border-2 rounded-full  ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)} />
         <div className="flex gap-x-4 items-center">
