@@ -3,6 +3,7 @@ import { IonIcon } from '@ionic/react';
 import { caretDownCircleOutline, caretDownOutline, personOutline } from 'ionicons/icons';
 import Grid from './Components/Grid.jsx';
 import Chart from './Components/Chart.jsx';
+import Thunder from './assets/Thunder.jpg;
 
 function App() {
   const [open, setOpen] = useState(true);
@@ -27,7 +28,7 @@ function App() {
           className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple border-2 rounded-full  ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)} />
         <div className="flex gap-x-4 items-center">
-          <img src="./src/assets/thunder.jpg"
+          <img src={Thunder}
             className={`cursor-pointer duration-500 rounded-md ${open && "rotate-[360deg] h-12"}`} />
           <h1 className={`text-white origin-left font-medium text-xl duration-200 ${!open && "scale-0"}`}>
             Kav͜͡inM
